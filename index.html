@@ -7424,7 +7424,7 @@ div.jp-OutputPrompt {
     init_mathjax();
     </script>
 <!-- End of mathjax configuration --><!-- Reveal Theme -->
-<link href="reveal.js/dist/theme/serif.css" id="theme" rel="stylesheet"/>
+<link href="reveal.js/dist/theme/simple.css" id="theme" rel="stylesheet"/>
 </head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
@@ -7493,7 +7493,7 @@ require(
             controls: true,
             progress: true,
             history: true,
-            transition: "none",
+            transition: "slide",
             slideNumber: "",
             plugins: [RevealNotes]
         });
@@ -7507,7 +7507,7 @@ require(
         Reveal.addEventListener('slidechanged', update);
 
         function setScrollingSlide() {
-            var scroll = true
+            var scroll = false
             if (scroll === true) {
               var h = $('.reveal').height() * 0.95;
               $('section.present').find('section')
