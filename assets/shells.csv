@@ -1,0 +1,8 @@
+Types of shells,sh,csh,tcsh,ksh,bash
+Programming language,Yes,Yes,Yes,Yes,Yes
+Shell variables,Yes,Yes,Yes,Yes,Yes
+Command alias,No,Yes,Yes,Yes,Yes
+Command history,No,Yes,Yes,Yes,Yes
+Filename completion,No,Yes,Yes,Yes,Yes
+Command line editing,No,No,Yes,Yes,Yes
+Job control,No,Yes,Yes,Yes,Yes
